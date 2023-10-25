@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', 'sans-serif', 'Helvetica Neue','Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+#mainContainer{
+  background-color: rgb(41, 41, 41);
+}
+
+
+.centering{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.customBox{
+  background-color: #F5F7FA;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  
+}
+.miscInfo{
+  padding: 7rem 0rem 7rem 0rem;
+  background-color: #BFD9FF;
+  border-radius: 20px;
+
+}
+.addBottomSpace{
+  padding-bottom: 13vmin;
+}
+
+.socialLogo {
+  max-width: 4vmin;
+  
+}
+#footerContainer { 
+  padding-top: 7vmin;
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+  position: sticky;
+  top: 100%;
+}
+
+
+
+.Card.AuthCard {
+  border: none;
+  border-radius: 9px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: #F5F7FA;
+  width: 50vmin;
+  min-width: 16rem;
+  max-height:40rem;
+}
+
+.Card.AuthCardTitle{
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #327DD5;
+}
+
+.Card.authInputs{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #35f15e;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
