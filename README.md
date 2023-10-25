@@ -1,4 +1,10 @@
 # SocialStudy
+This is a social networking web application similar to reddit but for the purpose of education only, within a school account setting.
+
+## Group project
+Lead a team of 6 as the project manager and delivered the project on time. I was also the frontend lead for the team.
+
+
 
 ## Development Setup
 
